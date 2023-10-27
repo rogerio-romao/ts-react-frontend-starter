@@ -1,6 +1,6 @@
-# js-react-frontend-starter
+# ts-react-frontend-starter
 
-Project Starter for Frontend JS projects - React
+Project Starter for Frontend Typescript projects - React
 
 [![Build Status](https://app.travis-ci.com/rogerio-romao/eslint-preset-js-frontend.svg?branch=main)](https://app.travis-ci.com/rogerio-romao/eslint-preset-js-frontend)
 
