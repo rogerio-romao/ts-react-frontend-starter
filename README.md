@@ -2,7 +2,7 @@
 
 Project Starter for Frontend Typescript projects - React
 
-[![Build Status](https://app.travis-ci.com/rogerio-romao/eslint-preset-js-frontend.svg?branch=main)](https://app.travis-ci.com/rogerio-romao/eslint-preset-js-frontend)
+[![Build Status](https://app.travis-ci.com/rogerio-romao/ts-react-frontend-starter.svg?branch=main)](https://app.travis-ci.com/rogerio-romao/ts-react-frontend-starter)
 
 ## Features
 
