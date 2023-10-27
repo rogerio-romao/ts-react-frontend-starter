@@ -1,0 +1,17 @@
+/* Reset and Normalize CSS */
+@import './vendor/reset.css';
+@import './vendor/normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html,
+body {
+    block-size: 100%;
+    inline-size: 100%;
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: whitesmoke;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: black;
+}

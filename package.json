@@ -1,0 +1,80 @@
+{
+    "name": "eslint-preset-js-frontend",
+    "version": "1.0.0",
+    "description": "My own personal Eslint preset for Javascript frontend projects",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "dev": "vite --open",
+        "dev:ci": "vite",
+        "build": "vite build",
+        "preview": "vite preview --open",
+        "lint": "eslint . --ext .js,.jsx",
+        "lint:fix": "eslint . --ext .js,.jsx --fix",
+        "lint:css": "stylelint \"**/*.{css, scss}\"",
+        "lint:css:fix": "stylelint \"**/*.{css, scss}\" --fix",
+        "test": "vitest",
+        "test:ui": "vitest --ui --coverage",
+        "test:ci": "vitest run",
+        "test:coverage": "vitest run --coverage",
+        "test:e2e": "playwright test",
+        "test:e2e:ui": "playwright test --ui",
+        "test:e2e:codegen": "playwright codegen",
+        "precommit": "pnpm run lint && pnpm run lint:css && pnpm run test:ci",
+        "prepare": "husky install"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rogerio-romao/js-react-frontend-starter.git"
+    },
+    "author": "Rogerio Romao",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/rogerio-romao/eslint-preset-js-frontend/issues"
+    },
+    "homepage": "https://github.com/rogerio-romao/eslint-preset-js-frontend#readme",
+    "browserslist": [
+        "fully supports es6-module"
+    ],
+    "devDependencies": {
+        "@isnotdefined/stylelint-plugin": "^3.1.0",
+        "@playwright/test": "^1.39.0",
+        "@types/node": "^20.8.8",
+        "@types/react": "^18.2.31",
+        "@types/react-dom": "^18.2.14",
+        "@typescript-eslint/parser": "^6.9.0",
+        "@vitejs/plugin-react": "^4.1.0",
+        "@vitest/coverage-v8": "^0.34.6",
+        "@vitest/ui": "^0.34.6",
+        "eslint": "^8.52.0",
+        "eslint-plugin-eslint-comments": "^3.2.0",
+        "eslint-plugin-import": "^2.29.0",
+        "eslint-plugin-promise": "^6.1.1",
+        "eslint-plugin-react": "^7.33.2",
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "eslint-plugin-sonarjs": "^0.21.0",
+        "eslint-plugin-unicorn": "^48.0.1",
+        "husky": "^8.0.0",
+        "msw": "^2.0.0",
+        "stylelint": "^15.10.3",
+        "stylelint-a11y": "^1.2.3",
+        "stylelint-css-modules": "^1.2.2",
+        "stylelint-css-modules-no-global-scoped-selector": "^1.0.2",
+        "stylelint-declaration-block-no-ignored-properties": "^2.7.0",
+        "stylelint-group-selectors": "^1.0.10",
+        "stylelint-high-performance-animation": "^1.9.0",
+        "stylelint-no-unused-selectors": "^1.0.40",
+        "stylelint-plugin-defensive-css": "^0.9.2",
+        "stylelint-plugin-logical-css": "^0.13.2",
+        "stylelint-rem-over-px": "^1.0.1",
+        "stylelint-selector-tag-no-without-class": "^2.0.6",
+        "stylelint-use-nesting": "^4.1.0",
+        "stylelint-value-no-exposed-custom-properties": "^2.3.1",
+        "vite": "^4.5.0",
+        "vitest": "^0.34.6"
+    },
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    }
+}

@@ -1,0 +1,25 @@
+.app {
+    padding: 2rem;
+}
+
+h1.mainpage_title {
+    color: turquoise;
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.increment_btn {
+    background-color: turquoise;
+    color: black;
+    font-size: 0.8rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    border: none;
+    cursor: pointer;
+}
+
+.separator {
+    margin: 1rem 0;
+    border-block-end: 1px solid turquoise;
+}
