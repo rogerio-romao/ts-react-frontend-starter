@@ -1,7 +1,7 @@
 {
-    "name": "eslint-preset-js-frontend",
+    "name": "ts-react-frontend-starter",
     "version": "1.0.0",
-    "description": "My own personal Eslint preset for Javascript frontend projects",
+    "description": "My personal template for starting frontend project in Typescript/React",
     "main": "index.js",
     "type": "module",
     "scripts": {
@@ -25,14 +25,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/rogerio-romao/js-react-frontend-starter.git"
+        "url": "git+https://github.com/rogerio-romao/ts-react-frontend-starter.git"
     },
     "author": "Rogerio Romao",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/rogerio-romao/eslint-preset-js-frontend/issues"
+        "url": "https://github.com/rogerio-romao/ts-react-frontend-starter/issues"
     },
-    "homepage": "https://github.com/rogerio-romao/eslint-preset-js-frontend#readme",
+    "homepage": "https://github.com/rogerio-romao/ts-react-frontend-starter#readme",
     "browserslist": [
         "fully supports es6-module"
     ],
