@@ -1,18 +1,18 @@
 // packages
-import { useState } from 'react';
+import React, { useState } from 'react';
 
 // components
-import Test from '@/components/Test';
+import Test from '../components/Test.tsx';
 
 // styles
-import styles from '@/css/app.module.css';
+import styles from '../css/app.module.css';
 
-export default function App() {
+export default function App(): React.ReactElement {
     const [count, setCount] = useState(0);
 
     return (
         <div className={styles.app}>
-            <h1 className={styles.mainpage_title}>React App</h1>
+            <h1 className={styles.mainpage_title}>React TS App</h1>
 
             <hr className={styles.separator} />
 

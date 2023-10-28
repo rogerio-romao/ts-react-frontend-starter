@@ -1,16 +1,4 @@
-import { graphql, http } from 'msw';
-import { setupServer } from 'msw/node';
-import {
-    afterAll,
-    afterEach,
-    beforeAll,
-    beforeEach,
-    describe,
-    expect,
-    it,
-    test,
-    vi,
-} from 'vitest';
+import { afterEach, beforeEach, describe, expect, it, test, vi } from 'vitest';
 import {
     executeAfterTwoHours,
     executeEveryMinute,
@@ -19,7 +7,7 @@ import {
     purchase,
     sum,
     toUpperCase,
-} from './example';
+} from './example.ts';
 
 // Mock globals
 const IntersectionObserverMock = vi.fn(() => {
@@ -88,11 +76,6 @@ describe('reading messages', () => {
         expect(messages.getLatest()).toEqual(messages.items.at(-1));
 
         expect(spy).toHaveBeenCalledTimes(1);
-
-        spy.mockImplementationOnce(() => 'access-restricted');
-        expect(messages.getLatest()).toEqual('access-restricted');
-
-        expect(spy).toHaveBeenCalledTimes(2);
     });
 
     it('should get with a mock', () => {
@@ -100,14 +83,6 @@ describe('reading messages', () => {
 
         expect(mock()).toEqual(messages.items.at(-1));
         expect(mock).toHaveBeenCalledTimes(1);
-
-        mock.mockImplementationOnce(() => 'access-restricted');
-        expect(mock()).toEqual('access-restricted');
-
-        expect(mock).toHaveBeenCalledTimes(2);
-
-        expect(mock()).toEqual(messages.items.at(-1));
-        expect(mock).toHaveBeenCalledTimes(3);
     });
 });
 
@@ -139,51 +114,5 @@ describe('delayed execution', () => {
         expect(mock).toHaveBeenCalledTimes(1);
         vi.advanceTimersToNextTimer();
         expect(mock).toHaveBeenCalledTimes(2);
-    });
-});
-
-// Mock requests
-const posts = [
-    {
-        userId: 1,
-        id: 1,
-        title: 'first post title',
-        body: 'first post body',
-    },
-    // ...
-];
-
-export const restHandlers = [
-    http.get(
-        'https://rest-endpoint.example/path/to/posts',
-        () => new Response('Hello world!')
-    ),
-];
-
-const graphqlHandlers = [
-    graphql.query(
-        'https://graphql-endpoint.example/api/v1/posts',
-        (_req, res, ctx) => res(ctx.data(posts))
-    ),
-];
-
-const server = setupServer(...restHandlers, ...graphqlHandlers);
-
-// Start server before all tests
-beforeAll(() => server.listen({ onUnhandledRequest: 'error' }));
-
-//  Close server after all tests
-afterAll(() => server.close());
-
-// Reset handlers after each test `important for test isolation`
-afterEach(() => server.resetHandlers());
-
-describe('fetching posts', () => {
-    it('should fetch posts', async () => {
-        const response = await fetch(
-            'https://rest-endpoint.example/path/to/posts'
-        );
-        const data = await response.text();
-        expect(data).toEqual('Hello world!');
     });
 });

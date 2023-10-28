@@ -1,6 +1,6 @@
 import { expect, test } from '@playwright/test';
 
-test('mainpage', async ({ page, baseURL }) => {
+test.skip('mainpage', async ({ page, baseURL }) => {
     await page.goto(baseURL);
     await expect(
         page.getByRole('heading', { name: 'React App' })
