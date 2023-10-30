@@ -65,7 +65,7 @@
         "stylelint-group-selectors": "^1.0.10",
         "stylelint-high-performance-animation": "^1.9.0",
         "stylelint-no-unused-selectors": "^1.0.40",
-        "stylelint-plugin-defensive-css": "^0.9.2",
+        "stylelint-plugin-defensive-css": "^0.10.2",
         "stylelint-plugin-logical-css": "^0.13.2",
         "stylelint-rem-over-px": "^1.0.1",
         "stylelint-selector-tag-no-without-class": "^2.0.6",
