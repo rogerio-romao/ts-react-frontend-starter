@@ -74,8 +74,8 @@ devDependencies:
     specifier: ^8.0.0
     version: 8.0.3
   msw:
-    specifier: ^2.0.6
-    version: 2.0.6(typescript@5.2.2)
+    specifier: ^2.0.10
+    version: 2.0.10(typescript@5.2.2)
   stylelint:
     specifier: ^15.10.3
     version: 15.11.0(typescript@5.2.2)
@@ -779,8 +779,8 @@ packages:
     engines: {node: '>=18'}
     dev: true
 
-  /@mswjs/interceptors@0.25.11:
-    resolution: {integrity: sha512-27aonWAjdeoZN4j4j6QvePOSOacQUucFRUESAU8FUXsmmagDjmyOi4/NHizxzY/NHSk/HAyqF/IMhl+9puhqNw==}
+  /@mswjs/interceptors@0.25.13:
+    resolution: {integrity: sha512-xfjR81WwXPHwhDbqJRHlxYmboJuiSaIKpP4I5TJVFl/EmByOU13jOBT9hmEnxcjR3jvFYoqoNKt7MM9uqerj9A==}
     engines: {node: '>=18'}
     dependencies:
       '@open-draft/deferred-promise': 2.2.0
@@ -3889,8 +3889,8 @@ packages:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
     dev: true
 
-  /msw@2.0.6(typescript@5.2.2):
-    resolution: {integrity: sha512-74nN9ADQxHsVx8YGOq5yeDE4bye1mVMAYXojKl0qWraRunTK8UjAVk3wSmOOvVVIDJsyySyjDZ4oYvRuzuMO2g==}
+  /msw@2.0.10(typescript@5.2.2):
+    resolution: {integrity: sha512-JhKdzIEuMDSU7qak4CJjiSFW2J0R4Wm5AuLhFzimKs68Wx7PTyqjgnw7+7FpQ3kGi0yY49g/qEFmUmMyLmjb4w==}
     engines: {node: '>=18'}
     hasBin: true
     requiresBuild: true
@@ -3904,7 +3904,7 @@ packages:
       '@bundled-es-modules/js-levenshtein': 2.0.1
       '@bundled-es-modules/statuses': 1.0.1
       '@mswjs/cookies': 1.1.0
-      '@mswjs/interceptors': 0.25.11
+      '@mswjs/interceptors': 0.25.13
       '@open-draft/until': 2.1.0
       '@types/cookie': 0.4.1
       '@types/js-levenshtein': 1.1.2
@@ -3916,15 +3916,12 @@ packages:
       inquirer: 8.2.6
       is-node-process: 1.2.0
       js-levenshtein: 1.1.6
-      node-fetch: 2.7.0
       outvariant: 1.4.0
       path-to-regexp: 6.2.1
       strict-event-emitter: 0.5.1
       type-fest: 2.19.0
       typescript: 5.2.2
       yargs: 17.7.2
-    transitivePeerDependencies:
-      - encoding
     dev: true
 
   /mute-stream@0.0.8:
@@ -3949,18 +3946,6 @@ packages:
 
   /nice-try@1.0.5:
     resolution: {integrity: sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==}
-    dev: true
-
-  /node-fetch@2.7.0:
-    resolution: {integrity: sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==}
-    engines: {node: 4.x || >=6.0.0}
-    peerDependencies:
-      encoding: ^0.1.0
-    peerDependenciesMeta:
-      encoding:
-        optional: true
-    dependencies:
-      whatwg-url: 5.0.0
     dev: true
 
   /node-releases@2.0.13:
@@ -5392,10 +5377,6 @@ packages:
       punycode: 2.3.0
     dev: true
 
-  /tr46@0.0.3:
-    resolution: {integrity: sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==}
-    dev: true
-
   /tr46@1.0.1:
     resolution: {integrity: sha512-dTpowEjclQ7Kgx5SdBkqRzVhERQXov8/l9Ft9dVM9fmg0W0KQSVaXX9T4i6twCPNtYiZM53lpSSUAwJbFPOHxA==}
     dependencies:
@@ -5760,10 +5741,6 @@ packages:
       defaults: 1.0.4
     dev: true
 
-  /webidl-conversions@3.0.1:
-    resolution: {integrity: sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==}
-    dev: true
-
   /webidl-conversions@4.0.2:
     resolution: {integrity: sha512-YQ+BmxuTgd6UXZW3+ICGfyqRyHXVlD5GtQr5+qjiNW7bF0cqrzX500HVXPBOvgXb5YnzDd+h0zqyv61KUD7+Sg==}
     dev: true
@@ -5776,13 +5753,6 @@ packages:
 
   /whatwg-mimetype@2.3.0:
     resolution: {integrity: sha512-M4yMwr6mAnQz76TbJm914+gPpB/nCwvZbJU28cUD6dR004SAxDLOOSUaB1JDRqLtaOV/vi0IC5lEAGFgrjGv/g==}
-    dev: true
-
-  /whatwg-url@5.0.0:
-    resolution: {integrity: sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==}
-    dependencies:
-      tr46: 0.0.3
-      webidl-conversions: 3.0.1
     dev: true
 
   /whatwg-url@7.1.0:
