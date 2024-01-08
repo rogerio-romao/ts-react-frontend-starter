@@ -101,8 +101,8 @@ devDependencies:
     specifier: ^1.0.40
     version: 1.0.40(stylelint@15.11.0)
   stylelint-plugin-defensive-css:
-    specifier: ^0.10.2
-    version: 0.10.2(stylelint@15.11.0)
+    specifier: ^1.0.0
+    version: 1.0.0(stylelint@15.11.0)
   stylelint-plugin-logical-css:
     specifier: ^0.13.2
     version: 0.13.2(stylelint@15.11.0)
@@ -5106,11 +5106,11 @@ packages:
       - utf-8-validate
     dev: true
 
-  /stylelint-plugin-defensive-css@0.10.2(stylelint@15.11.0):
-    resolution: {integrity: sha512-/A/6bz3jKemmwBm77Uf2zLqT7gN6qLEDdQiWaABMidQC1aMsz52LRBQc8f5L1gAG04Nw5i7XbdQhlyfq9MGQGw==}
-    engines: {node: '>=16.0.0'}
+  /stylelint-plugin-defensive-css@1.0.0(stylelint@15.11.0):
+    resolution: {integrity: sha512-86JZSncX1BLRg9MGbGkc1ncQTmcH8R3yT3j0t9AJxqPPYdA2m3D/w8D8K/qeiyOSJFXSyr3N7PxZxtfcyFa5cg==}
+    engines: {node: '>=18.12.0'}
     peerDependencies:
-      stylelint: ^14.0.0 || ^15.0.0
+      stylelint: ^14.0.0 || ^15.0.0 || ^16.0.0
     dependencies:
       stylelint: 15.11.0(typescript@5.2.2)
     dev: true
