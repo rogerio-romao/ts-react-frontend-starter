@@ -64,7 +64,7 @@
         "stylelint-css-modules-no-global-scoped-selector": "^1.0.2",
         "stylelint-declaration-block-no-ignored-properties": "^2.7.0",
         "stylelint-group-selectors": "^1.0.10",
-        "stylelint-high-performance-animation": "^1.9.0",
+        "stylelint-high-performance-animation": "^1.10.0",
         "stylelint-no-unused-selectors": "^1.0.40",
         "stylelint-plugin-defensive-css": "^1.0.1",
         "stylelint-plugin-logical-css": "^0.13.2",
