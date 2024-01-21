@@ -58,7 +58,7 @@
         "eslint-plugin-unicorn": "^50.0.0",
         "husky": "^8.0.0",
         "msw": "^2.0.10",
-        "stylelint": "^15.10.3",
+        "stylelint": "^16.0.0",
         "stylelint-a11y": "^1.2.3",
         "stylelint-css-modules": "^1.2.2",
         "stylelint-css-modules-no-global-scoped-selector": "^1.0.2",
