@@ -72,7 +72,7 @@
         "stylelint-selector-tag-no-without-class": "^2.0.6",
         "stylelint-use-nesting": "^4.1.0",
         "stylelint-value-no-exposed-custom-properties": "^2.3.1",
-        "typescript": "^5.2.2",
+        "typescript": "^5.3.3",
         "vite": "^5.0.12",
         "vitest": "^1.0.0"
     },
