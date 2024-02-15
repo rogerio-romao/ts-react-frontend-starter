@@ -110,8 +110,8 @@ devDependencies:
     specifier: ^1.0.1
     version: 1.0.1(stylelint@16.2.0)
   stylelint-selector-tag-no-without-class:
-    specifier: ^2.0.6
-    version: 2.0.6(stylelint@16.2.0)
+    specifier: ^3.0.0
+    version: 3.0.0(stylelint@16.2.0)
   stylelint-use-nesting:
     specifier: ^4.1.0
     version: 4.1.0(stylelint@16.2.0)
@@ -4291,7 +4291,7 @@ packages:
     dependencies:
       icss-utils: 4.1.1
       postcss: 7.0.39
-      postcss-selector-parser: 6.0.13
+      postcss-selector-parser: 6.0.15
       postcss-value-parser: 4.2.0
     dev: true
 
@@ -5187,12 +5187,14 @@ packages:
       stylelint: 16.2.0(typescript@5.3.3)
     dev: true
 
-  /stylelint-selector-tag-no-without-class@2.0.6(stylelint@16.2.0):
-    resolution: {integrity: sha512-57VJuGic5zNklj6KP8WHWQc6Ue1GrLhyrShAiptahXRY6Qzhevf3fH20rJA0f/woT37NULvndU1n+7Ju6Eg/tg==}
+  /stylelint-selector-tag-no-without-class@3.0.0(stylelint@16.2.0):
+    resolution: {integrity: sha512-YL2BcUdWPWbxRd2Ov1SZPP3PMiihQ5N6TLuF5WVL7x5zsqurLgAuVRAl83pAEHTPZapWetBd00m8ZWqa61wRKg==}
+    engines: {node: '>=18.12.0'}
     peerDependencies:
-      stylelint: '>= 9.x < 16'
+      stylelint: '>= 9.x < 17'
     dependencies:
       lodash: 4.17.21
+      postcss-selector-parser: 6.0.15
       stylelint: 16.2.0(typescript@5.3.3)
     dev: true
 
