@@ -14,8 +14,8 @@ dependencies:
 
 devDependencies:
   '@isnotdefined/stylelint-plugin':
-    specifier: ^4.0.0
-    version: 4.0.0(stylelint@16.2.0)
+    specifier: ^5.0.0
+    version: 5.0.0(stylelint@16.2.0)
   '@playwright/test':
     specifier: ^1.41.1
     version: 1.41.1
@@ -727,13 +727,13 @@ packages:
       wrap-ansi-cjs: /wrap-ansi@7.0.0
     dev: true
 
-  /@isnotdefined/stylelint-plugin@4.0.0(stylelint@16.2.0):
-    resolution: {integrity: sha512-KHUgUWK/dZp88JRa3qBpS2VCsbPota2y/Gz9QHCRN/CzQEuV9XttJrNzKNyUjVCNdo61ZQTy/CqCyPiQpg50yA==}
+  /@isnotdefined/stylelint-plugin@5.0.0(stylelint@16.2.0):
+    resolution: {integrity: sha512-EMLlD0TgmN1KpkpYGG/j0ojoQtvYJFKiSMURv1wLrlKueo1/2tpMmpq5QfV4e1Xd7vOPT0elJodbVO65/CvTMw==}
     peerDependencies:
       stylelint: ^16
     dependencies:
-      postcss: 8.4.32
-      postcss-values-parser: 6.0.2(postcss@8.4.32)
+      postcss: 8.4.33
+      postcss-values-parser: 6.0.2(postcss@8.4.33)
       stylelint: 16.2.0(typescript@5.3.3)
     dev: true
 
@@ -4328,7 +4328,7 @@ packages:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
     dev: true
 
-  /postcss-values-parser@6.0.2(postcss@8.4.32):
+  /postcss-values-parser@6.0.2(postcss@8.4.33):
     resolution: {integrity: sha512-YLJpK0N1brcNJrs9WatuJFtHaV9q5aAOj+S4DI5S7jgHlRfm0PIbDCAFRYMQD5SHq7Fy6xsDhyutgS0QOAs0qw==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -4336,7 +4336,7 @@ packages:
     dependencies:
       color-name: 1.1.4
       is-url-superb: 4.0.0
-      postcss: 8.4.32
+      postcss: 8.4.33
       quote-unquote: 1.0.0
     dev: true
 
