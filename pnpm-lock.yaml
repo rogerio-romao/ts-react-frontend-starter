@@ -114,7 +114,7 @@ devDependencies:
     version: 3.0.0(stylelint@16.2.1)
   stylelint-use-nesting:
     specifier: ^5.0.0
-    version: 5.1.0(stylelint@16.2.1)
+    version: 5.1.1(stylelint@16.2.1)
   stylelint-value-no-exposed-custom-properties:
     specifier: ^2.3.1
     version: 2.3.1(stylelint@16.2.1)
@@ -5053,8 +5053,8 @@ packages:
       stylelint: 16.2.1(typescript@5.3.3)
     dev: true
 
-  /stylelint-use-nesting@5.1.0(stylelint@16.2.1):
-    resolution: {integrity: sha512-SGhdevOB6aoXi5O7NJxN3H7Nl/LKZo6SGwdT89D6sGXwzPUPeCZZmKMDRjIdMHNHNxf3OIwnz3P4ohKBi8yP/g==}
+  /stylelint-use-nesting@5.1.1(stylelint@16.2.1):
+    resolution: {integrity: sha512-CMPN52zWGqogls7i6u0jCjOU7jb6/3r+1/VWkuSoA6KAATgHEvGe6xc9PcLMBKYLtTS1tblEyIUW8fiU36D5GQ==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       stylelint: '>= 16'
