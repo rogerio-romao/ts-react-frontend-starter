@@ -111,7 +111,7 @@ devDependencies:
     version: 1.0.1(stylelint@16.2.1)
   stylelint-selector-tag-no-without-class:
     specifier: ^3.0.0
-    version: 3.0.0(stylelint@16.2.1)
+    version: 3.0.1(stylelint@16.2.1)
   stylelint-use-nesting:
     specifier: ^5.0.0
     version: 5.1.1(stylelint@16.2.1)
@@ -5042,8 +5042,8 @@ packages:
       stylelint: 16.2.1(typescript@5.3.3)
     dev: true
 
-  /stylelint-selector-tag-no-without-class@3.0.0(stylelint@16.2.1):
-    resolution: {integrity: sha512-YL2BcUdWPWbxRd2Ov1SZPP3PMiihQ5N6TLuF5WVL7x5zsqurLgAuVRAl83pAEHTPZapWetBd00m8ZWqa61wRKg==}
+  /stylelint-selector-tag-no-without-class@3.0.1(stylelint@16.2.1):
+    resolution: {integrity: sha512-xukZ8Wb9PeZ+r/2cxLveKJuDRIWsRVOlLDnAeK3rGaC3N+BSUafDwXZiUtCtc3BxT2K2YmYSQOZc6ZQ621IdaA==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
       stylelint: '>= 9.x < 17'
