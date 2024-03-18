@@ -105,7 +105,7 @@ devDependencies:
     version: 1.0.3(stylelint@16.2.1)
   stylelint-plugin-logical-css:
     specifier: ^1.0.0
-    version: 1.1.0(stylelint@16.2.1)
+    version: 1.2.0(stylelint@16.2.1)
   stylelint-rem-over-px:
     specifier: ^1.0.1
     version: 1.0.1(stylelint@16.2.1)
@@ -5141,8 +5141,8 @@ packages:
       stylelint: 16.2.1(typescript@5.4.2)
     dev: true
 
-  /stylelint-plugin-logical-css@1.1.0(stylelint@16.2.1):
-    resolution: {integrity: sha512-l99ZXD/m6T6z2xb0L0EaMx3NqEwCfxKkBFElQStybpPJk+2TQzXqaI230ADHiPWaJmWkKC2y9ZacrKoohOU3Iw==}
+  /stylelint-plugin-logical-css@1.2.0(stylelint@16.2.1):
+    resolution: {integrity: sha512-WSyG6LhUyrw+Qqu1qDbAtnkG1eqdI1eQG80MWhFGM0hj8veiJD8Z8Trgmo8dUaxBOQosAF7z081PXFqZhKymNg==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
       stylelint: ^14.0.0 || ^15.0.0 || ^16.0.0
