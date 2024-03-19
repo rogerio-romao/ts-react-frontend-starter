@@ -75,7 +75,7 @@ devDependencies:
     version: 9.0.11
   msw:
     specifier: ^2.1.5
-    version: 2.2.5(typescript@5.4.2)
+    version: 2.2.8(typescript@5.4.2)
   stylelint:
     specifier: ^16.0.0
     version: 16.2.1(typescript@5.4.2)
@@ -3118,8 +3118,8 @@ packages:
       function-bind: 1.1.2
     dev: true
 
-  /headers-polyfill@4.0.2:
-    resolution: {integrity: sha512-EWGTfnTqAO2L/j5HZgoM/3z82L7necsJ0pO9Tp0X1wil3PDLrkypTBRgVO2ExehEEvUycejZD3FuRaXpZZc3kw==}
+  /headers-polyfill@4.0.3:
+    resolution: {integrity: sha512-IScLbePpkvO846sIwOtOTDjutRMWdXdJmXdMvk6gCBHxFO8d+QKOQedyZSxFTTFYRSmlgSTDtXqqq4pcenBXLQ==}
     dev: true
 
   /hosted-git-info@2.8.9:
@@ -3922,8 +3922,8 @@ packages:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
     dev: true
 
-  /msw@2.2.5(typescript@5.4.2):
-    resolution: {integrity: sha512-9JTDvKTc7Weu8iF0JQeW3+ispwR12rJyHgqncoTBdQZ4L41Acm09i8CViY2c2ULaVTFhhorDwECR27QiXpPw5g==}
+  /msw@2.2.8(typescript@5.4.2):
+    resolution: {integrity: sha512-K2LvWq2Lgfo6lEvn4eXj9uOCXuXZdZdHtNzyx+UBZY+iaQ5fdBaev3TLmUyLOUY4N8p0pYf3Iy7RA8sDnQ1M1Q==}
     engines: {node: '>=18'}
     hasBin: true
     requiresBuild: true
@@ -3943,7 +3943,7 @@ packages:
       '@types/statuses': 2.0.5
       chalk: 4.1.2
       graphql: 16.8.1
-      headers-polyfill: 4.0.2
+      headers-polyfill: 4.0.3
       is-node-process: 1.2.0
       outvariant: 1.4.2
       path-to-regexp: 6.2.1
