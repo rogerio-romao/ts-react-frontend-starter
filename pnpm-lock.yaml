@@ -75,7 +75,7 @@ devDependencies:
     version: 9.0.11
   msw:
     specifier: ^2.1.5
-    version: 2.2.8(typescript@5.4.2)
+    version: 2.2.9(typescript@5.4.2)
   stylelint:
     specifier: ^16.0.0
     version: 16.2.1(typescript@5.4.2)
@@ -3922,8 +3922,8 @@ packages:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
     dev: true
 
-  /msw@2.2.8(typescript@5.4.2):
-    resolution: {integrity: sha512-K2LvWq2Lgfo6lEvn4eXj9uOCXuXZdZdHtNzyx+UBZY+iaQ5fdBaev3TLmUyLOUY4N8p0pYf3Iy7RA8sDnQ1M1Q==}
+  /msw@2.2.9(typescript@5.4.2):
+    resolution: {integrity: sha512-MLIFufBe6m9c5rZKlmGl6jl1pjn7cTNiDGEgn5v2iVRs0mz+neE2r7lRyYNzvcp6FbdiUEIRp/Y2O2gRMjO8yQ==}
     engines: {node: '>=18'}
     hasBin: true
     requiresBuild: true
@@ -3948,7 +3948,7 @@ packages:
       outvariant: 1.4.2
       path-to-regexp: 6.2.1
       strict-event-emitter: 0.5.1
-      type-fest: 4.12.0
+      type-fest: 4.13.1
       typescript: 5.4.2
       yargs: 17.7.2
     dev: true
@@ -5446,8 +5446,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /type-fest@4.12.0:
-    resolution: {integrity: sha512-5Y2/pp2wtJk8o08G0CMkuFPCO354FGwk/vbidxrdhRGZfd0tFnb4Qb8anp9XxXriwBgVPjdWbKpGl4J9lJY2jQ==}
+  /type-fest@4.13.1:
+    resolution: {integrity: sha512-ASMgM+Vf2cLwDMt1KXSkMUDSYCxtckDJs8zsaVF/mYteIsiARKCVtyXtcK38mIKbLTctZP8v6GMqdNaeI3fo7g==}
     engines: {node: '>=16'}
     dev: true
 
